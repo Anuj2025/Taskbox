@@ -1,0 +1,107 @@
+:root{
+--white-smoke: #F3F3F3ff;
+--platinum: #E5E5E5ff;
+--gunmetal: #313648ff;
+}
+
+*{
+
+}
+
+.Auth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5px;
+  min-height: 75vh;
+  text-align: center;
+  border-bottom: 1px solid var(--white-smoke);
+}
+
+.Auth h4{
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.Auth-container{
+  width: 320px;
+  min-height: 320px;
+}
+
+.Auth_Btns button{
+  width: 100%;
+  height: 40px;
+  background: var(--platinum);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+ display: flex;
+ align-content: center;
+ align-items: center;
+ justify-content: center;
+ gap: .5em;
+ border: 1.5px solid #fff;
+ transition: .5s ease;
+}
+
+.Auth_Btns button:focus{
+  border: 1.5px solid #333;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#form input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid var(--platinum);
+  border-radius: 8px;
+  transition: .5s ease;
+}
+
+#form input:focus {
+  border: 1px solid #333;
+}
+
+#form button{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--platinum);
+  border-radius: 8px;
+  transition: .5s ease;
+  color: #333;
+  font-weight: bold;
+}
+
+.policy{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 30px;
+  width: 200px;
+}
+
+a{
+  text-decoration: none;
+  color: darkorange;
+}
+
+p{
+  padding: 5px;
+}
+
+.Navigator{
+  font-size: 13px;
+}
